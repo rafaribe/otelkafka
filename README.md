@@ -1,4 +1,4 @@
-# Splunk instrumentation for `github.com/confluentinc/confluent-kafka-go/kafka
+# Instrumentation for `github.com/confluentinc/confluent-kafka-go/kafka
 
 This instrumentation is for the
 [github.com/confluentinc/confluent-kafka-go/kafka](https://github.com/confluentinc/confluent-kafka-go)

@@ -91,13 +91,7 @@ github.com/ory/dockertest/v3/docker/types/versions
 github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 github.com/pmezard/go-difflib/difflib
-# github.com/signalfx/splunk-otel-go v0.8.0 => ../../../../../../../
-github.com/signalfx/splunk-otel-go
-# github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/kafka/splunkkafka v0.8.0 => ../
 ## explicit
-github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/kafka/splunkkafka
-# github.com/signalfx/splunk-otel-go/instrumentation/internal v0.8.0 => ../../../../../../internal/
-github.com/signalfx/splunk-otel-go/instrumentation/internal
 # github.com/sirupsen/logrus v1.8.1
 github.com/sirupsen/logrus
 # github.com/stretchr/testify v1.7.1
