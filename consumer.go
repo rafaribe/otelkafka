@@ -188,6 +188,7 @@ func (c *Consumer) Poll(timeoutMS int) (event kafka.Event) {
 		s := c.startSpan(msg)
 		active := atomic.SwapPointer(&c.activeSpan, unsafe.Pointer(&s))
 		(*consumerSpan)(active).End(trace.WithTimestamp(endTime))
+		s.End()
 	}
 	return evt
 }
@@ -217,6 +218,7 @@ func (c *Consumer) ReadMessage(timeout time.Duration) (*kafka.Message, error) {
 		s := c.startSpan(msg)
 		active := atomic.SwapPointer(&c.activeSpan, unsafe.Pointer(&s))
 		(*consumerSpan)(active).End(trace.WithTimestamp(endTime))
+		s.End()
 	}
 	return msg, err
 }
