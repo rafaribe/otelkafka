@@ -32,7 +32,7 @@ examples](./example_test.go) for how to use these functions.
 
 This repository forked from [splunk-otel-go confluent-kafka-go](https://github.com/signalfx/splunk-otel-go/tree/main/instrumentation/github.com/confluentinc/confluent-kafka-go/kafka/splunkkafka), copyrighted by:
 
-
+```
 // Copyright Splunk Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,5 +46,4 @@ This repository forked from [splunk-otel-go confluent-kafka-go](https://github.c
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
-
+```
