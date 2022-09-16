@@ -30,6 +30,8 @@ examples](./example_test.go) for how to use these functions.
 
 ## Credits
 
+his repository forked from [sermojohn/otelkafka](https://github.com/sermojohn/otelkafka), all credit is his.
+
 This repository forked from [splunk-otel-go confluent-kafka-go](https://github.com/signalfx/splunk-otel-go/tree/main/instrumentation/github.com/confluentinc/confluent-kafka-go/kafka/splunkkafka), copyrighted by:
 
 ```
